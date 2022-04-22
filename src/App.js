@@ -150,73 +150,73 @@ function App() {
             <div className={styles.container}>
               <div className={styles.othbik}>
                 <div>
-                  <div className={styles.otherbikes}>
+                  <div className={styles.otherbikesactive}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>Hybrid Bikes</p>
+                  <p className={styles.othbiktext}>Hybrid Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>Fixie Bikes</p>
+                  <p className={styles.othbiktext}>Fixie Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>Folding Bikes</p>
+                  <p className={styles.othbiktext}>Folding Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>Mount Bikes</p>
+                  <p className={styles.othbiktext}>Mount Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>City Bikes</p>
+                  <p className={styles.othbiktext}>City Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>City Bikes</p>
+                  <p className={styles.othbiktext}>City Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>City Bikes</p>
+                  <p className={styles.othbiktext}>City Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>City Bikes</p>
+                  <p className={styles.othbiktext}>City Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>City Bikes</p>
+                  <p> className={styles.othbiktext}City Bikes</p>
                 </div>
 
                 <div>
                   <div className={styles.otherbikes}>
                     <img src={slantbike} alt="bicycle" />
                   </div>
-                  <p>City Bikes</p>
+                  <p className={styles.othbiktext}>City Bikes</p>
                 </div>
               </div>
             </div>
@@ -254,9 +254,9 @@ function App() {
       {/* Forth section */}
       <div className={`${styles.section4} ${styles.container}`}>
         <div className={styles.wocas}>
-          <p>What our customer are saying</p>
-          <div>
-            <div>
+          <p className={styles.wocasheader}>What our customer are saying</p>
+          <div className={styles.wocasgrid}>
+            <div className={styles.wocasprofile}>
               <img src={biker} alt="biker profie" />
               <p>Edward Newgate</p>
               <p>Pro-Cycler</p>
@@ -270,6 +270,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className={styles.spacer}>{""}</div>
     </Layout>
   );
 }

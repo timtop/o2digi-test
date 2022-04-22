@@ -1,0 +1,20 @@
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.footerbg {
+  background-color: #fcb72b;
+}
+
+.footer {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerlink {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
