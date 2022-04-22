@@ -226,14 +226,48 @@
   padding: 110px;
 }
 
+.wocasname {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: white;
+}
+
+.wocasjob {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: white;
+}
+
 .wocasheader {
   text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: white;
 }
 
 .wocasprofile {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 580px;
+}
+
+.wocasdesc {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: white;
 }
 
 .wocasgrid {

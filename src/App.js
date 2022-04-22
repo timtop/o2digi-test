@@ -258,11 +258,11 @@ function App() {
           <div className={styles.wocasgrid}>
             <div className={styles.wocasprofile}>
               <img src={biker} alt="biker profie" />
-              <p>Edward Newgate</p>
-              <p>Pro-Cycler</p>
+              <p className={styles.wocasname}>Edward Newgate</p>
+              <p className={styles.wocasjob}>Pro-Cycler</p>
             </div>
 
-            <p>
+            <p className={styles.wocasdesc}>
               Dummy Text patient engagement app and web portal allow you to
               access information instantaneously (no tedeous form, long calls,
               or administrative hassle) and securely”

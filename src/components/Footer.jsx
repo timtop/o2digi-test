@@ -8,18 +8,18 @@ function Footer() {
       <div className={`${styles.container} ${styles.footer}`}>
         <div>
           <img src={whitelogo} alt="white logo" />
-          <p>
+          <p className={styles.fotterdesc}>
             Trafalgar provides progressive, and affordable <br /> healthcare,
             accessible on mobile and online <br /> for everyone
           </p>
-          <p>©eBike 2021. All rights reserved</p>
+          <p className={styles.footercopy}>©eBike 2021. All rights reserved</p>
         </div>
 
         <div className={styles.footerlink}>
           <div>
-            <p>Company</p>
+            <p className={styles.footercom}>Company</p>
 
-            <div>
+            <div className={styles.footercompl}>
               <p>Product</p>
               <p>Bike Type</p>
               <p>About us</p>
@@ -27,9 +27,9 @@ function Footer() {
             </div>
           </div>
           <div>
-            <p>Help</p>
+            <p className={styles.footercom}>Help</p>
 
-            <div>
+            <div className={styles.footercompl}>
               <p>Help center</p>
               <p>Contact Support</p>
               <p>Instructions</p>
